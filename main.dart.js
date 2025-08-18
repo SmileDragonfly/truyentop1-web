@@ -103599,7 +103599,7 @@ var $async$zM=A.x(function(c,d){if(c===1)return A.y(d,r)
 while(true)switch(s){case 0:o=A.T(["page",B.i.j(a),"per_page",B.i.j(b)],t.N,t.z)
 m=J
 s=3
-return A.t(p.kM(A.aRz("http",B.c.oQ("http://14.225.255.188:8080","http://",""),"/story",o)),$async$zM)
+return A.t(p.kM(A.aRz("http",B.c.oQ("https://14.225.255.188:8080","http://",""),"/story",o)),$async$zM)
 case 3:n=m.eW(d,new A.a6l(),t.vF)
 q=A.a0(n,!0,n.$ti.h("a8.E"))
 s=1
@@ -103611,7 +103611,7 @@ a5a(a){var s=0,r=A.B(t.vF),q,p=this,o
 var $async$vl=A.x(function(b,c){if(b===1)return A.y(c,r)
 while(true)switch(s){case 0:o=A
 s=3
-return A.t(p.kM(A.e8("http://14.225.255.188:8080/story/"+a,0,null)),$async$vl)
+return A.t(p.kM(A.e8("https://14.225.255.188:8080/story/"+a,0,null)),$async$vl)
 case 3:q=o.Gv(c)
 s=1
 break
@@ -103623,7 +103623,7 @@ a4M(a,b,c){var s=0,r=A.B(t.w8),q,p=this,o,n
 var $async$vf=A.x(function(d,e){if(d===1)return A.y(e,r)
 while(true)switch(s){case 0:n=J
 s=3
-return A.t(p.kM(A.e8("http://14.225.255.188:8080/hot-stories",0,null).a3h(0,A.T(["type",a,"page",B.i.j(b),"per_page",B.i.j(c)],t.N,t.z))),$async$vf)
+return A.t(p.kM(A.e8("https://14.225.255.188:8080/hot-stories",0,null).a3h(0,A.T(["type",a,"page",B.i.j(b),"per_page",B.i.j(c)],t.N,t.z))),$async$vf)
 case 3:o=n.eW(e,new A.a6j(),t.vF)
 q=A.a0(o,!0,o.$ti.h("a8.E"))
 s=1
@@ -103634,7 +103634,7 @@ zF(a){return this.a4D(a)},
 a4D(a){var s=0,r=A.B(t.ja),q,p=this,o
 var $async$zF=A.x(function(b,c){if(b===1)return A.y(c,r)
 while(true)switch(s){case 0:s=3
-return A.t(p.kM(A.e8("http://14.225.255.188:8080/chapter/"+a,0,null)),$async$zF)
+return A.t(p.kM(A.e8("https://14.225.255.188:8080/chapter/"+a,0,null)),$async$zF)
 case 3:o=c
 if(t.b.b(o)&&J.jZ(o)){q=A.aHS(J.l0(o))
 s=1
@@ -103648,7 +103648,7 @@ a4E(a,b,c){var s=0,r=A.B(t.Xs),q,p=this,o
 var $async$ri=A.x(function(d,e){if(d===1)return A.y(e,r)
 while(true)switch(s){case 0:o=A
 s=3
-return A.t(p.kM(A.e8("http://14.225.255.188:8080/chapter/story/"+a+"?page="+b+"&per_page="+c,0,null)),$async$ri)
+return A.t(p.kM(A.e8("https://14.225.255.188:8080/chapter/story/"+a+"?page="+b+"&per_page="+c,0,null)),$async$ri)
 case 3:q=o.aYA(e)
 s=1
 break
@@ -103658,7 +103658,7 @@ zH(){var s=0,r=A.B(t.ay),q,p=this,o,n
 var $async$zH=A.x(function(a,b){if(a===1)return A.y(b,r)
 while(true)switch(s){case 0:n=J
 s=3
-return A.t(p.kM(A.e8("http://14.225.255.188:8080/genres",0,null)),$async$zH)
+return A.t(p.kM(A.e8("https://14.225.255.188:8080/genres",0,null)),$async$zH)
 case 3:o=n.eW(b,new A.a6i(),t.ug)
 q=A.a0(o,!0,o.$ti.h("a8.E"))
 s=1
@@ -103671,7 +103671,7 @@ var $async$vk=A.x(function(d,e){if(d===1)return A.y(e,r)
 while(true)switch(s){case 0:o=A.T(["page",B.i.j(b),"per_page",B.i.j(c),"genre",a],t.N,t.z)
 m=J
 s=3
-return A.t(p.kM(A.aRz("http",B.c.oQ("http://14.225.255.188:8080","http://",""),"/story",o)),$async$vk)
+return A.t(p.kM(A.aRz("http",B.c.oQ("https://14.225.255.188:8080","http://",""),"/story",o)),$async$vk)
 case 3:n=m.eW(e,new A.a6k(),t.vF)
 q=A.a0(n,!0,n.$ti.h("a8.E"))
 s=1
@@ -103683,7 +103683,7 @@ a5S(a){var s=0,r=A.B(t.w8),q,p=this,o,n
 var $async$zU=A.x(function(b,c){if(b===1)return A.y(c,r)
 while(true)switch(s){case 0:n=J
 s=3
-return A.t(p.kM(A.e8("http://14.225.255.188:8080/story/search?query="+a+"&page=1&per_page=10",0,null)),$async$zU)
+return A.t(p.kM(A.e8("https://14.225.255.188:8080/story/search?query="+a+"&page=1&per_page=10",0,null)),$async$zU)
 case 3:o=n.eW(c,new A.a6m(),t.vF)
 q=A.a0(o,!0,o.$ti.h("a8.E"))
 s=1
